@@ -121,7 +121,7 @@ describe Dog do
     end
   end
 
-  describe '.find' do
+  describe 'git add' do
     it 'returns a new dog object by id' do
       Dog.create(name: "Kevin", breed: "shepard")
       Dog.create(name: "Dave", breed: "poodle")
